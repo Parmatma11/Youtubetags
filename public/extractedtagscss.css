@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.name {
+    font-size: 30px;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 572;
+    font-style: normal;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(43, 10, 10, 0.28);
+    padding: 20px;
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - 10vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+}
+
+.extracted {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.extracted h1 {
+    color: white;
+    font-size: 50px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.extractedtags {
+    width: 60%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tag {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.tag button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.tag button:hover {
+    text-decoration: underline;
+}
+
+.copy-all {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.copy-all:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
